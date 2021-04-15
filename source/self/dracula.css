@@ -10,11 +10,23 @@
  * @author Zeno Rocha <hi@zenorocha.com>
  */
 
-.hljs {
+.root {
+  --hl-color: #f8f8f2;
+  --hl-bg: #282a36;
+  --hltools-bg: #321a0f;
+  --hltools-color: #fff;
+  --hlnumber-bg: #282a36;
+  --hlnumber-color: #fff;
+  --hlscrollbar-bg: #f8f8f2;
+  --hlexpand-bg: #f8f8f2;
+}
+
+#article-container figure.highlight .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #282a36;
+  color: #f8f8f2;
 }
 
 .hljs-built_in,
@@ -28,7 +40,6 @@
   color: #ff79c6;
 }
 
-.hljs,
 .hljs-subst {
   color: #f8f8f2;
 }

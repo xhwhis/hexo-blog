@@ -605,7 +605,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -690,13 +690,13 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
-  valine: true
+  valine: false
   github_issues:
     enable: false
     repo:
@@ -705,7 +705,7 @@ newest_comments:
     forum:
     api_key:
   twikoo: false
-  waline: false
+  waline: true
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
@@ -845,7 +845,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/self/dracula.css">
   bottom:
     # - <script src="xxxx"></script>
 

@@ -129,6 +129,15 @@ douban:
     aside: true
   timeout: 10000
 
+artitalk:
+  enable: true
+  appId: sJaFcoSsNbMAXy1wOIiLqaOk-gzGzoHsz
+  appKey: CUcrpfl2rsi32DOVuf55hI0x
+  path:
+  js:
+  option:
+  front_matter:
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

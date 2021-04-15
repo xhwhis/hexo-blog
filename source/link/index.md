@@ -1,8 +1,8 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: link
+date: 2021-04-15 20:32:17
 updated:
-type:
+type: "link"
 comments:
 description:
 keywords:

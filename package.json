@@ -28,7 +28,6 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-offline": "^2.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-markdown-it": "^5.0.0",
     "hexo-renderer-pug": "^1.0.0",
@@ -38,6 +37,11 @@
     "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
-    "@waline/client": "^0.14.8"
+    "@waline/client": "^0.14.8",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "readable-stream": "^2.3.7",
+    "uglify-es": "^3.3.9",
+    "workbox-build": "^6.1.5"
   }
 }

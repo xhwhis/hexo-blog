@@ -1,3 +1,6 @@
+---
+abbrlink: 14
+---
 # Interview Q&A C/CPP
 
 

@@ -1,3 +1,6 @@
+---
+abbrlink: 6
+---
 # RedBlack_Tree
 
 

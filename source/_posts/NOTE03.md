@@ -1,3 +1,6 @@
+---
+abbrlink: 8
+---
 # DAY04
 
 ## 使用github管理代码

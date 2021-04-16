@@ -1,3 +1,6 @@
+---
+abbrlink: 9
+---
 # Interview Q&A Computer Networking
 
 

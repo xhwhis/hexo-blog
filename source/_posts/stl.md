@@ -1,3 +1,6 @@
+---
+abbrlink: 19
+---
 # Interview Q&A STL
 
 

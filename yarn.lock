@@ -14,7 +14,7 @@
   "resolved" "https://registry.npm.taobao.org/@babel/compat-data/download/@babel/compat-data-7.13.15.tgz"
   "version" "7.13.15"
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.1", "@babel/core@^7.13.0", "@babel/core@^7.4.0-0":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.1", "@babel/core@^7.13.0", "@babel/core@^7.13.15", "@babel/core@^7.4.0-0":
   "integrity" "sha1-ptQJF98CdIe1QxIgKgaBLE93ktA="
   "resolved" "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.13.15.tgz"
   "version" "7.13.15"
@@ -706,7 +706,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/preset-env@^7.11.0":
+"@babel/preset-env@^7.11.0", "@babel/preset-env@^7.13.15":
   "integrity" "sha1-yKbrWE+W7LoYPT1BSoNVOlmfR48="
   "resolved" "https://registry.npm.taobao.org/@babel/preset-env/download/@babel/preset-env-7.13.15.tgz?cache=0&sync_timestamp=1617897766937&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fpreset-env%2Fdownload%2F%40babel%2Fpreset-env-7.13.15.tgz"
   "version" "7.13.15"

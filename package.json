@@ -14,7 +14,6 @@
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.6.1",
     "cheerio": "^0.22.0",
-    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-html-minifier-terser": "^6.0.1",
     "gulp-htmlclean": "^2.7.22",
@@ -42,8 +41,11 @@
     "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
     "@waline/client": "^0.14.8",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-uglify": "^3.0.2",
     "readable-stream": "^2.3.7",
     "uglify-es": "^3.3.9",

@@ -14,6 +14,7 @@
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.6.1",
     "cheerio": "^0.22.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-html-minifier-terser": "^6.0.1",
     "gulp-htmlclean": "^2.7.22",

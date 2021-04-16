@@ -3690,6 +3690,16 @@
   "resolved" "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.6.tgz?cache=0&sync_timestamp=1612893637484&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
+"gulp-babel@^8.0.0":
+  "integrity" "sha1-4NqW9PLsSojdOjAw9HbjirISbYc="
+  "resolved" "https://registry.npm.taobao.org/gulp-babel/download/gulp-babel-8.0.0.tgz"
+  "version" "8.0.0"
+  dependencies:
+    "plugin-error" "^1.0.1"
+    "replace-ext" "^1.0.0"
+    "through2" "^2.0.0"
+    "vinyl-sourcemaps-apply" "^0.2.0"
+
 "gulp-clean-css@^4.3.0":
   "integrity" "sha1-Wx5z8vykZwPrY2AUzdRVPOplFG0="
   "resolved" "https://registry.npm.taobao.org/gulp-clean-css/download/gulp-clean-css-4.3.0.tgz"

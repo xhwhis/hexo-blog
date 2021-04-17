@@ -136,6 +136,7 @@ artitalk:
   path:
   js:
   option:
+    serverURL: https://api.lwscode.cn
   front_matter:
 
 algolia:
@@ -156,5 +157,5 @@ deploy:
   type: git
   repo:
     coding: https://e.coding.net/lwscode/lwscode/lwscode.git
-    github: git@github.com:lws597/lws597.github.io.git
-    gitee: git@gitee.com:lws597/lws597.gitee.io.git
+    github: https://github.com/lws597/lws597.github.io.git
+    gitee: https://gitee.com/lws597/lws597.git

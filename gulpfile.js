@@ -58,7 +58,7 @@ gulp.task('minify-css', () => {
 // 壓縮 public 目錄內 html
 gulp.task('minify-html', () => {
   return gulp.src('./public/**/*.html')
-    .pipe(htmlclean())
+    // .pipe(htmlclean())
     .pipe(htmlmin({
       removeComments: true, //清除 HTML 註釋
       collapseWhitespace: true, //壓縮 HTML
@@ -76,12 +76,12 @@ gulp.task('minify-html', () => {
 // 壓縮 public/uploads 目錄內圖片
 gulp.task('minify-images', async () => {
   gulp.src('./public/img/**/*.*')
-    .pipe(imagemin({
-      optimizationLevel: 5, //類型：Number  預設：3  取值範圍：0-7（優化等級）
-      progressive: true, //類型：Boolean 預設：false 無失真壓縮jpg圖片
-      interlaced: false, //類型：Boolean 預設：false 隔行掃描gif進行渲染
-      multipass: false, //類型：Boolean 預設：false 多次優化svg直到完全優化
-    }))
+    // .pipe(imagemin({
+    //   optimizationLevel: 5, //類型：Number  預設：3  取值範圍：0-7（優化等級）
+    //   progressive: true, //類型：Boolean 預設：false 無失真壓縮jpg圖片
+    //   interlaced: false, //類型：Boolean 預設：false 隔行掃描gif進行渲染
+    //   multipass: false, //類型：Boolean 預設：false 多次優化svg直到完全優化
+    // }))
     .pipe(gulp.dest('./public/img'));
 });
 
@@ -89,3 +89,8 @@ gulp.task('minify-images', async () => {
 gulp.task("default", gulp.series("generate-service-worker", gulp.parallel(
     'compress','minify-html', 'minify-css', 'minify-images'
 )));
+
+gulp.task("compress", gulp.series("generate-service-worker", "compress"));
+gulp.task("html", gulp.series("generate-service-worker", "minify-html"));
+gulp.task("css", gulp.series("generate-service-worker", "minify-css"));
+gulp.task("images", gulp.series("generate-service-worker", "minify-images"));

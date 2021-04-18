@@ -1,12 +1,12 @@
 :root {
   --hl-color: #f8f8f2;
   --hl-bg: #282a36;
-  --hltools-bg: #1a1a21;
+  --hltools-bg: #21222c;
   --hltools-color: #6272a4;
   --hlnumber-bg: #282a36;
   --hlnumber-color: #6272a4;
-  --hlscrollbar-bg: #484950;
-  --hlexpand-bg: #282a36;
+  --hlscrollbar-bg: #21222c;
+  --hlexpand-bg: rgba(40, 42, 54, 0.5);
 }
 
 #article-container figure.highlight .hljs {

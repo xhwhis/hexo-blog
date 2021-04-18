@@ -14,7 +14,7 @@ menu:
   娱乐||fas fa-list:
     音乐: /music/ || fas fa-music
     电影: /movies/ || fas fa-video
-    说说: /artitalk/ || fa fa-comment
+    说说: /shuoshuo/ || fa fa-comment
     
   链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
@@ -739,7 +739,7 @@ readmode: true
 darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
-  button: true
+  button: false
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am

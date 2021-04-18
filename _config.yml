@@ -133,7 +133,7 @@ artitalk:
   enable: true
   appId: sJaFcoSsNbMAXy1wOIiLqaOk-gzGzoHsz
   appKey: CUcrpfl2rsi32DOVuf55hI0x
-  path:
+  path: /shuoshuo/
   js:
   option:
     serverURL: https://api.lwscode.cn

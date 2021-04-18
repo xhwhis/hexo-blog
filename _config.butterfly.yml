@@ -478,18 +478,18 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#21222c"
-  paginator: "#282a36"
-  button_hover: "#1a1a21"
-  text_selection: "#373948"
+  main: "#bd93f9"
+  paginator: "#50fa7b"
+  button_hover: "#44475a"
+  text_selection: "#44475a"
   link_color: "#ff79c6"
   meta_color: "#6272a4"
-  hr_color: "#282a36"
+  hr_color: "#bd93f9"
 #   code_foreground: "#F47466"
 #   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#313341"
-  blockquote_padding_color: "#21222c"
-  blockquote_background_color: "#21222c"
+  toc_color: "#44475a"
+  blockquote_padding_color: "#bd93f9"
+  blockquote_background_color: "#bd93f9"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)

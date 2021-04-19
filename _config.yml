@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://lwscode.cn
-permalink: :abbrlink/
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -111,21 +111,21 @@ douban:
     quote: 'This is my book quote'
     meta: true
     comments: true
-    top_img: https://cccccc.png
+    top_img: #bd93f9
     aside: true
   movie:
     title: 'This is my movie title'
     quote: 'This is my movie quote'
     meta: true
     comments: true
-    top_img: https://cccccc.png
+    top_img: #50fa7b
     aside: true
   game:
     title: 'This is my game title'
     quote: 'This is my game quote'
     meta: true
     comments: true
-    top_img: https://cccccc.png
+    top_img: #ff79c6
     aside: true
   timeout: 10000
 

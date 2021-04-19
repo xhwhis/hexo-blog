@@ -1,5 +1,6 @@
 ---
-abbrlink: 16
+title: {{ title }}
+date: {{ date }}
 ---
 # git设置和取消代理
 

@@ -1,5 +1,6 @@
 ---
-abbrlink: 9
+title: {{ title }}
+date: {{ date }}
 ---
 # Interview Q&A Computer Networking
 

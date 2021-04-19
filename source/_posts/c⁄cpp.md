@@ -1,5 +1,6 @@
 ---
-abbrlink: 14
+title: {{ title }}
+date: {{ date }}
 ---
 # Interview Q&A C/CPP
 

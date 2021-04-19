@@ -1,5 +1,6 @@
 ---
-abbrlink: 13
+title: {{ title }}
+date: {{ date }}
 ---
 # Interview Q&A
 

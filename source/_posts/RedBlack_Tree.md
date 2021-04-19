@@ -1,5 +1,6 @@
 ---
-abbrlink: 6
+title: {{ title }}
+date: {{ date }}
 ---
 # RedBlack_Tree
 

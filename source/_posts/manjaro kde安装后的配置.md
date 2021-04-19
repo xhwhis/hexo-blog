@@ -1,10 +1,6 @@
 ---
-title: manjaro kde安装后的配置
-tags:
-  - Linux
-  - manjaro
-categories: Linux
-abbrlink: 32699
+title: {{ title }}
+date: {{ date }}
 ---
 # manjaro kde安装后的配置
 

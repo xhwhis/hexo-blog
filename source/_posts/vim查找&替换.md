@@ -1,5 +1,6 @@
 ---
-abbrlink: 20
+title: {{ title }}
+date: {{ date }}
 ---
 # vim中的查找与替换
 

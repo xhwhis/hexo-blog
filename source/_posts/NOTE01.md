@@ -1,10 +1,7 @@
 ---
-abbrlink: 3
+title: {{ title }}
+date: {{ date }}
 ---
-[TOC]
-
-
-
 # DAY01
 
 ## 更新源

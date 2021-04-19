@@ -1,5 +1,6 @@
 ---
-abbrlink: 15
+title: {{ title }}
+date: {{ date }}
 ---
 # niuke interview
 

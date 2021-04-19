@@ -1,8 +1,7 @@
 ---
-abbrlink: 4
+title: {{ title }}
+date: {{ date }}
 ---
-[TOC]
-
 # DAY03
 
 ## Linux极简入门

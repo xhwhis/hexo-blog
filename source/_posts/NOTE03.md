@@ -1,5 +1,6 @@
 ---
-abbrlink: 8
+title: {{ title }}
+date: {{ date }}
 ---
 # DAY04
 

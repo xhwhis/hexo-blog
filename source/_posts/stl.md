@@ -1,5 +1,6 @@
 ---
-abbrlink: 19
+title: {{ title }}
+date: {{ date }}
 ---
 # Interview Q&A STL
 

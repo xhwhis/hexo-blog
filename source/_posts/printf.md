@@ -1,5 +1,6 @@
 ---
-abbrlink: 17
+title: {{ title }}
+date: {{ date }}
 ---
 printf输出颜色和ANSI控制码(高亮,下划线,闪烁,光标位置,清屏等)
 

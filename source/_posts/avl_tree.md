@@ -1,5 +1,6 @@
 ---
-abbrlink: 11
+title: {{ title }}
+date: {{ date }}
 ---
 # avl_tree
 

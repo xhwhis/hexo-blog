@@ -1,5 +1,6 @@
 ---
-abbrlink: 10
+title: {{ title }}
+date: {{ date }}
 ---
 # c++ stl
 

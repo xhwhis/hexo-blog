@@ -1,5 +1,6 @@
 ---
 title: computer_networking
+abbrlink: 40772
 date: 2021-04-20 10:46:58
 updated:
 tags:

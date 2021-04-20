@@ -1,5 +1,6 @@
 ---
 title: socket
+abbrlink: 34204
 date: 2021-04-20 11:05:34
 updated:
 tags:

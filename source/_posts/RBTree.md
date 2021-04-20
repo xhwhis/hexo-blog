@@ -1,5 +1,6 @@
 ---
 title: RBTree
+abbrlink: 60718
 date: 2021-04-20 11:04:42
 updated:
 tags:

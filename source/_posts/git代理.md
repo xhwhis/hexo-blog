@@ -1,5 +1,6 @@
 ---
 title: git代理
+abbrlink: 39017
 date: 2021-04-20 10:54:04
 updated:
 tags:

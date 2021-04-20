@@ -1,5 +1,6 @@
 ---
 title: effective
+abbrlink: 52590
 date: 2021-04-20 10:50:31
 updated:
 tags:

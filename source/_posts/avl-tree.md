@@ -1,5 +1,6 @@
 ---
 title: avl_tree
+abbrlink: 51743
 date: 2021-04-20 10:42:00
 updated:
 tags:

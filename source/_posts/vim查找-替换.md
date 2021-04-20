@@ -1,5 +1,6 @@
 ---
 title: vim查找&替换
+abbrlink: 5304
 date: 2021-04-20 11:09:18
 updated:
 tags:

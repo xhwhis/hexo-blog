@@ -1,5 +1,6 @@
 ---
 title: newcoder_cpp
+abbrlink: 22684
 date: 2021-04-20 10:58:13
 updated:
 tags:

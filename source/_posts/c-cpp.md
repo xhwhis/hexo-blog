@@ -1,5 +1,6 @@
 ---
 title: c/cpp
+abbrlink: 8601
 date: 2021-04-20 10:45:39
 updated:
 tags:

@@ -1,5 +1,6 @@
 ---
 title: note1
+abbrlink: 34015
 date: 2021-04-20 10:59:05
 updated:
 tags:

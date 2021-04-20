@@ -1,5 +1,6 @@
 ---
 title: printf
+abbrlink: 12527
 date: 2021-04-20 11:03:19
 updated:
 tags:

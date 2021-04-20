@@ -1,5 +1,6 @@
 ---
 title: manjaro kde安装后的配置
+abbrlink: 9628
 date: 2021-04-20 10:55:45
 updated:
 tags:

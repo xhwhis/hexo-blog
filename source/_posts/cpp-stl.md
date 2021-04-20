@@ -1,5 +1,6 @@
 ---
 title: cpp_stl
+abbrlink: 56828
 date: 2021-04-20 10:48:16
 updated:
 tags:

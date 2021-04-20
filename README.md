@@ -1,1 +1,1 @@
-# lwscode
+# hexo-blog

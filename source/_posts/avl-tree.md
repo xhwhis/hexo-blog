@@ -1,6 +1,26 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: avl_tree
+date: 2021-04-20 10:42:00
+updated:
+tags:
+categories:
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 # avl_tree
 
@@ -27,4 +47,3 @@ RR型 左旋
 LR型 左旋-->(LL型)-->右旋
 
 RL型 右旋-->(RR型)-->左旋
-

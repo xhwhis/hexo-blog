@@ -1,6 +1,26 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: socket
+date: 2021-04-20 11:05:34
+updated:
+tags:
+categories:
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 我们深谙信息交流的价值，那网络中进程之间如何通信，如我们每天打开浏览器浏览网页时，浏览器的进程怎么与web服务器通信的？当你用QQ聊天时，QQ进程怎么与服务器或你好友所在的QQ进程通信？这些都得靠socket？那什么是socket？socket的类型有哪些？还有socket的基本函数，这些都是本文想介绍的。本文的主要内容如下：
 
@@ -80,6 +100,8 @@ struct sockaddr_in {
       struct in_addr sin_addr;   /* internet address */
 };
   
+  ```
+
 /* Internet address. */
   struct in_addr {
     uint32_t       s_addr;     /* address in network byte order */
@@ -96,7 +118,7 @@ struct sockaddr_in {
       struct in6_addr sin6_addr;     /* IPv6 address */ 
       uint32_t        sin6_scope_id; /* Scope ID (new in 2.4) */ 
 };
-  
+
 struct in6_addr { 
       unsigned char   s6_addr[16];   /* IPv6 address */ 
   };
@@ -106,7 +128,7 @@ struct in6_addr {
   
   ```
   #define UNIX_PATH_MAX    108
-  
+
   struct sockaddr_un { 
       sa_family_t sun_family;               /* AF_UNIX */ 
       char        sun_path[UNIX_PATH_MAX];  /* pathname */ 
@@ -168,21 +190,21 @@ accept函数的第一个参数为服务器的socket描述字，第二个参数�
 
 ```
        #include <unistd.h>
-
+    
        ssize_t read(int fd, void *buf, size_t count);
        ssize_t write(int fd, const void *buf, size_t count);
-
+    
        #include <sys/types.h>
        #include <sys/socket.h>
-
+    
        ssize_t send(int sockfd, const void *buf, size_t len, int flags);
        ssize_t recv(int sockfd, void *buf, size_t len, int flags);
-
+    
        ssize_t sendto(int sockfd, const void *buf, size_t len, int flags,
                       const struct sockaddr *dest_addr, socklen_t addrlen);
        ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags,
                         struct sockaddr *src_addr, socklen_t *addrlen);
-
+    
        ssize_t sendmsg(int sockfd, const struct msghdr *msg, int flags);
        ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags);
 ```
@@ -240,3 +262,4 @@ close一个TCP socket的缺省行为时把该socket标记为以关闭，然后�
 - 接收到这个FIN的源发送端TCP对它进行确认。
 
 这样每个方向上都有一个FIN和ACK。
+```

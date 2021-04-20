@@ -1,6 +1,26 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: note1
+date: 2021-04-20 10:59:05
+updated:
+tags:
+categories:
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 # DAY01
 
@@ -493,13 +513,13 @@ sudo pip install tldr
 
 	 cd ..	切换到上层目录
 
-	 cd .	切换到当前目录
+	cd .	切换到当前目录
 
-	 cd	回到自己的家目录
+	cd	回到自己的家目录
 
-	 cd ~	回到自己的家目录
+	cd ~	回到自己的家目录
 
-	 cd -	回到上次工作目录
+	cd -	回到上次工作目录
 
 
 
@@ -517,6 +537,6 @@ pwd [-LP]
 
 mkdir [-pm] <dir>
 
-- ​	-p	自动创建父目录
+- -p	自动创建父目录
 
-	 ​	-m	设置权限
+	 -m	设置权限

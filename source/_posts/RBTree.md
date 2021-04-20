@@ -1,6 +1,26 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: RBTree
+date: 2021-04-20 11:04:42
+updated:
+tags:
+categories:
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 # RedBlack_Tree
 
@@ -95,4 +115,3 @@ date: {{ date }}
 父节点任意颜色，兄弟节点的左儿子红色，删除节点是父节点的左儿子
 
 兄弟节点染成红色，兄弟节点的左儿子染成黑色，兄弟节点右旋，转换为情况四
-

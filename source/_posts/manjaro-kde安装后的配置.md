@@ -198,7 +198,7 @@ yay -S wps-office-mui-zh-cn wps-office ttf-wps-fonts
 ### IDE
 
 ```shell
-yay -S visual-studio-code-bin visual-studio-code-bin
+yay -S visual-studio-code-bin
 ```
 
 ### 字体

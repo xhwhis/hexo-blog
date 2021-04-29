@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lwscode.cn
+url: https://lwscode.com
 permalink: p/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -136,7 +136,7 @@ artitalk:
   path: /shuoshuo/
   js:
   option:
-    serverURL: https://api.lwscode.cn
+    serverURL: https://api.lwscode.com
   front_matter:
 
 algolia:

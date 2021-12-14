@@ -1,3 +1,6 @@
 [submodule "themes/butterfly"]
 	path = themes/butterfly
 	url = git@github.com:lws597/hexo-theme-butterfly.git
+[submodule "source/_posts"]
+	path = source/_posts
+	url = git@github.com:lws597/notes.git
